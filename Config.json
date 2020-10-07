@@ -1,0 +1,50 @@
+[
+    {
+        "client": "VSG",
+        "programs": ["VSG INF INFINITE","VSG SIG SIGNATURE","VSG PLT PLATINUM"],
+        "languages": ["en-GB"],
+        "statuses": ["CONFIRMED","RECONFIRMED"]
+    },
+    {
+        "client": "VHK",
+        "programs": ["VHK INF INFINITE","VHK SIG SIGNATURE","VHK PLT PLATINUM"],
+        "languages": ["en-GB"],
+        "statuses": ["CONFIRMED","RECONFIRMED"]
+    },
+    {
+        "client": "VKR",
+        "programs": ["VKR INF INFINITE","VKR SIG SIGNATURE","VKR PLT PLATINUM"],
+        "languages": ["en-GB"],
+        "statuses": ["CONFIRMED","RECONFIRMED"]
+    },
+    {
+        "client": "VBN",
+        "programs": ["VBN INF INFINITE","VBN SIG SIGNATURE","VBN PLT PLATINUM"],
+        "languages": ["en-GB"],
+        "statuses": ["CONFIRMED","RECONFIRMED"]
+    },
+    {
+        "client": "VCN",
+        "programs": ["VCN INF INFINITE","VCN SIG SIGNATURE","VCN PLT PLATINUM"],
+        "languages": ["en-GB"],
+        "statuses": ["CONFIRMED","RECONFIRMED"]
+    },
+    {
+        "client": "VJP",
+        "programs": ["VJP INF INFINITE","VJP SIG SIGNATURE","VJP PLT PLATINUM"],
+        "languages": ["en-GB"],
+        "statuses": ["CONFIRMED","RECONFIRMED"]
+    },
+    {
+        "client": "VMY",
+        "programs": ["VMY INF INFINITE","VMY SIG SIGNATURE","VMY PLT PLATINUM"],
+        "languages": ["en-GB"],
+        "statuses": ["CONFIRMED","RECONFIRMED"]
+    },
+    {
+        "client": "VTW",
+        "programs": ["VTW INF INFINITE","VTW SIG SIGNATURE","VTW PLT PLATINUM"],
+        "languages": ["en-GB"],
+        "statuses": ["CONFIRMED","RECONFIRMED"]
+    }
+]
