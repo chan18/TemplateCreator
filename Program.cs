@@ -30,7 +30,7 @@ namespace EmailConfig
                         foreach(var language in config["languages"])
                         {
                             folderName = $"{folderName}/{clientId}";
-                            
+
                             if (!System.IO.Directory.Exists(folderName))
                             {
                                 System.IO.Directory.CreateDirectory(folderName);
@@ -40,7 +40,10 @@ namespace EmailConfig
                             string pathString = System.IO.Path.Combine(folderName, fileName);
                             System.IO.File.Create(pathString);
                         }
+
+                         folderName = @"Temp";
                     }
+                   
                 }
             }
 
