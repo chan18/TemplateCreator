@@ -1,5 +1,17 @@
 [
     {
+        "client": "DCA",
+        "programs": ["DCA TEST 01","DCA TEST 02"],
+        "languages": ["en-GB"],
+        "statuses": ["CONFIRMED","RECONFIRMED"]
+    },
+    {
+        "client": "DMA",
+        "programs": ["DEMO SINGAPORE"],
+        "languages": ["en-GB"],
+        "statuses": ["CONFIRMED","RECONFIRMED"]
+    },
+    {
         "client": "VSG",
         "programs": ["VSG INF INFINITE","VSG SIG SIGNATURE","VSG PLT PLATINUM"],
         "languages": ["en-GB"],

@@ -29,7 +29,14 @@ namespace EmailConfig
                     {
                         foreach(var language in config["languages"])
                         {
-                            string fileName = $"{clientId}_{program.ToString().Replace(" ","_")}_{status.ToString()}_{language.ToString()}";
+                            folderName = $"{folderName}/{clientId}";
+                            
+                            if (!System.IO.Directory.Exists(folderName))
+                            {
+                                System.IO.Directory.CreateDirectory(folderName);
+                            }                            
+                            
+                            string fileName = $"{clientId}_{program.ToString().Replace(" ","_")}_{status.ToString()}_{language.ToString()}.html";
                             string pathString = System.IO.Path.Combine(folderName, fileName);
                             System.IO.File.Create(pathString);
                         }
